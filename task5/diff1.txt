@@ -1,0 +1,14 @@
+1c1,11
+< done
+---
+> /Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/task.py:11: RuntimeWarning: divide by zero encountered in remainder
+>   if np.any((result_shape % shape1 != 0) & (shape1 != 1)) or np.any(
+> /Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/task.py:12: RuntimeWarning: divide by zero encountered in remainder
+>   (result_shape % shape2 != 0) & (shape2 != 1)
+> Traceback (most recent call last):
+>   File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/test1.py", line 17, in <module>
+>     v2 = extended_bcast_add(e1, e2)
+>          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+>   File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/task.py", line 14, in extended_bcast_add
+>     raise ValueError("Shapes are not compatible for extended broadcasting")
+> ValueError: Shapes are not compatible for extended broadcasting

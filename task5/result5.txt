@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/test5.py", line 19, in <module>
+    result1 = extended_bcast_add(data1, data2)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task5/task.py", line 19, in extended_bcast_add
+    result = data1[grid1] + data2[grid2]
+             ~~~~~^^^^^^^
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed

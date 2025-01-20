@@ -1,0 +1,12 @@
+1c1,9
+< done
+---
+> Traceback (most recent call last):
+>   File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task3/test2.py", line 125, in <module>
+>     test()
+>   File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task3/test2.py", line 119, in test
+>     result.solutions(bad)
+>   File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task3/task.py", line 22, in __call__
+>     if params.shape[-1] != self.fd:
+>        ~~~~~~~~~~~~^^^^
+> IndexError: tuple index out of range

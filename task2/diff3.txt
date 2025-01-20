@@ -1,0 +1,15 @@
+3a4,6
+> True False
+> True False
+> True False
+5,10c8,10
+< True True
+< True True
+< True True
+< True True
+< True True
+< True True
+---
+> True False
+> True False
+> True False

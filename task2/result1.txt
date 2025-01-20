@@ -1,0 +1,8 @@
+True True
+True True
+True True
+Traceback (most recent call last):
+  File "/Users/s-reznick/work/courses/python-hse/hw03/repos/numpy-YanaSalova/task2/test1.py", line 15, in <module>
+    print(vv1.shape == (), np.all(vv1 == v1),) # нам нужен скаляр
+          ^^^^^^^^^
+AttributeError: 'int' object has no attribute 'shape'
